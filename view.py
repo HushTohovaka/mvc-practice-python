@@ -11,4 +11,5 @@ class View(tk.Tk):
         super().__init__()
 
     def main(self):
-        print("In main of view")
+        # This is an infinite loop for tkinter
+        self.mainloop()
